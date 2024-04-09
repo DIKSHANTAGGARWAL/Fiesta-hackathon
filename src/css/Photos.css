@@ -1,0 +1,15 @@
+.photos{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.photo-div{
+    margin: 20px;
+    border: 1px solid;
+    width: 150px;
+    border:1.5px solid gold;
+    border-radius: 15px;
+    padding: 10px;
+}

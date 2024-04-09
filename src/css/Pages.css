@@ -1,0 +1,20 @@
+.buttons{
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px; */
+    padding: 20px;
+    background-color: gold;
+    height: 100vh;
+}
+/* body{
+    background-color: gold;
+} */
+
+.btn{
+margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,115 @@
+.list-main-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-header{
+    width: 95%;
+    height: 50px;
+    display: inline-flex;
+    border-bottom: 2px solid black;
+    background-color: gold;
+}
+
+.list-number-heading{
+    width: 10%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bolder;
+    /* border-right: 1px solid black; */
+}
+
+.list-title-heading{
+    width: 80%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.list-status-heading{
+    width: 15%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.list-container{
+    width: 95%;
+}
+
+.list{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1.5px solid rgb(190, 189, 189);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.list-odd{
+    background-color:gold
+}
+.list-number{
+    width: 5%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list-title{
+    width: 80%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-status{
+    width: 15%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.list-status-indicator{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 500ms;
+    /* color: red; */
+}
+
+.status-todo{
+    border: 1px solid red;  
+    color: red;
+}
+
+.status-completed{
+    border: 1px solid green;
+    color: green;
+}
+
+.title-completed{
+    color: lightgrey;
+    color:grey;
+    text-decoration: line-through;
+}

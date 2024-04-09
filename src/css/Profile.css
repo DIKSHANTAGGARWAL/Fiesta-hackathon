@@ -1,0 +1,47 @@
+.user-details-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: #FFF; */
+    background-color: gold;
+    margin: 8px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-detail {
+    margin-bottom: 15px;
+  }
+  
+  .user-detail h3 {
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .user-detail p {
+    margin: 5px 0;
+  }
+  
+  .user-detail label {
+    font-weight: bold;
+  }
+  
+  .user-detail span {
+    margin-left: 5px;
+  }
+  
+  .user-detail .address-info {
+    margin-left: 20px;
+    display: block;
+  }
+  
+  .user-detail .contact-info {
+    margin-left: 20px;
+    display: block;
+  }
+  
+  .user-detail .company-info {
+    margin-left: 20px;
+    display: block;
+  }
+  
