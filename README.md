@@ -1,3 +1,5 @@
+After cloning the code run 'npm i' to install the packages and then run npm start to run the cod
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
